@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(img/wallpaper.jpg);
+    background-size: cover;
+}
+
+.mac-top img{
+    width: -webkit-fill-available;
+}
+.mac-dock{
+    margin: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.container{
+    bottom: 0;
+    position: absolute;
+    background: #b5a99b;
+    width: 44%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 13px;
+}
+
+.container img{
+    border-radius: 25px;
+    height: 3vw;
+    padding: 0px 15px;
+    
+}
+
+.container img:hover{
+    bottom: 15px;
+    position: relative;
+}
+.launched{
+    margin-top: 50px;
+    opacity: 0;
+
+}
+.launched img{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: all 0.1s;
+    
+
+}
